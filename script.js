@@ -43,8 +43,8 @@ then listen for more clicks
 const resetButton = document.querySelector('.reset-button');
 const displayWindow = document.getElementById('calc-display');    
 const numberButton = document.querySelectorAll('.number-button');
-const operationButton = document.querySelectorAll('.operation-button')
-const equalsButton = document.getElementById('=')
+const operationButton = document.querySelectorAll('.operation-button');
+const equalsButton = document.getElementById('=');
 let firstInput;
 let memory;
 // console.log(operationButton)
@@ -69,7 +69,7 @@ let firstInputClicks = (event) => {
         firstInput = displayWindow.innerHTML;
         memory = firstInput + targetId;
         displayWindow.innerHTML = '';
-        console.log(memory)
+        console.log(memory);
         document.body.removeEventListener('click', firstInputClicks);
         document.body.addEventListener('click', nextInputClicks);
     }

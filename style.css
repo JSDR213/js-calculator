@@ -1,14 +1,16 @@
 body {
     background-color: 
     #cccccc;
+    padding-top: 5vh;
 }
 .row {    
     height: 5em;
-    max-width: 80%;
+    max-width: 96%;
     margin: auto;
 }
 .row:first-of-type {    
-    padding-bottom: 2em;
+    padding-bottom: 3em;
+    height: 4em;
 }
 
 #frame {
@@ -24,38 +26,40 @@ body {
 
 #calc-display{
     display: block;
-    max-width: 95%;
     margin-left: auto;
     margin-right: auto; 
     font-family: 'VT323', sans-serif;
     font-size:60px;
     color: rgb(40, 39, 39);
     background-color: #93ab6e;
-    /* width: 100%; */
+    max-width: 84.9%;
     height: 100%;
-    line-height: 1.35;
+    line-height: 1.05;
     
 }
 
 button {
     vertical-align: middle;
-    border: 1px solid white;
+    border: 1px solid rgb(221, 221, 221);
     border-radius: 20px;
     background-color:#abb0a8;
     color: rgb(46, 46, 46);
     font-family: 'Roboto', sans-serif;
+    padding: 0;
 }
 
 .number-button, .operation-button, .equals-button {
     width: 20%;
     height: 90%;
-    margin: 0.333333em;
+    margin: 0.075em;
+    /* margin: 0em; */
     font-size: x-large;
 }
 
 .reset-button {
-    width: 30%;
+    width: 20%;
     height: 50%;
-    margin: .7em;
+    margin: .3em;
     font-size: x-large;
+    border-radius: 20px;
 }
