@@ -4,6 +4,11 @@ body {
 }
 .row {    
     height: 5em;
+    max-width: 80%;
+    margin: auto;
+}
+.row:first-of-type {    
+    padding-bottom: 2em;
 }
 
 #frame {
@@ -19,11 +24,16 @@ body {
 
 #calc-display{
     display: block;
-    font-family: 'Roboto', sans-serif;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto; 
+    font-family: 'VT323', sans-serif;
     font-size:60px;
-    color: white;
-    width: 100%;
+    color: rgb(40, 39, 39);
+    background-color: #93ab6e;
+    /* width: 100%; */
     height: 100%;
+    line-height: 1.35;
     
 }
 
@@ -31,21 +41,21 @@ button {
     vertical-align: middle;
     border: 1px solid white;
     border-radius: 20px;
-    background-color:#a62121;
-    color: white;
+    background-color:#abb0a8;
+    color: rgb(46, 46, 46);
     font-family: 'Roboto', sans-serif;
 }
 
 .number-button, .operation-button, .equals-button {
     width: 20%;
     height: 90%;
-    margin: 0.2em;
+    margin: 0.333333em;
     font-size: x-large;
 }
 
 .reset-button {
     width: 30%;
     height: 50%;
-    margin: 0.2em;
+    margin: .7em;
     font-size: x-large;
 }
