@@ -10,7 +10,7 @@ body {
     vertical-align: middle;
     border: 1px solid black;
     border-radius: 20px;
-    background-color:#171616;
+    background-color: gray;
     margin: auto;
     text-align: center;
     width: 30em;
@@ -21,8 +21,9 @@ body {
     display: block;
     font-family: 'Roboto', sans-serif;
     font-size:60px;
+    text-align: right;
     color: white;
-    width: 100%;
+    width: 80%;
     height: 100%;
 }
 
@@ -30,7 +31,7 @@ button {
     vertical-align: middle;
     border: 1px solid white;
     border-radius: 20px;
-    background-color:#a62121;
+    background-color: green;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
