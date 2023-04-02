@@ -1,6 +1,7 @@
 body {
     background-color: 
     #cccccc;
+    background-image: linear-gradient(rgb(40, 24, 69), rgb(236, 86, 198));
 }
 .row {    
     height: 5em;
@@ -10,7 +11,7 @@ body {
     vertical-align: middle;
     border: 1px solid black;
     border-radius: 20px;
-    background-color:#171616;
+    background-color:#340732;
     margin: auto;
     text-align: center;
     width: 30em;
@@ -19,7 +20,7 @@ body {
 
 #calc-display{
     display: block;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Kurale', serif;
     font-size:60px;
     color: white;
     width: 100%;
@@ -30,9 +31,9 @@ button {
     vertical-align: middle;
     border: 1px solid white;
     border-radius: 20px;
-    background-color:#a62121;
+    background-color:#d429ad;
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Kurale', serif;
 }
 
 .number-button, .operation-button, .equals-button {
@@ -48,3 +49,11 @@ button {
     margin: 0.2em;
     font-size: x-large;
 }
+
+.reset-button:hover {
+    transform: skew(-10deg);
+}
+
+
+
+
